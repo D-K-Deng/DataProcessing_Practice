@@ -33,7 +33,7 @@ public class DatabaseProcessing{
 		if(len<3) {
 			throw new Exception("ShortLengthException");//if the len does not reach the requirement, throw shortlengthexception
 		}
-		ArrayList<PeopleRecord> data=LoadData("C:/Users/28621/eclipse-workspace/CS201 Final Project/src/people.txt"); //an arraylist that store all people's data through class PeopleRecord
+		ArrayList<PeopleRecord> data=LoadData("your_path/people.txt"); //an arraylist that store all people's data through class PeopleRecord
 		 ArrayList<String> ans= new ArrayList<>();//create an arraylist for all the info that are needed to be processed
 		 for(int i=0;i<data.size();i++) {
 			 if(data.get(i)!=null) {
